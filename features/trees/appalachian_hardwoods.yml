@@ -1,0 +1,116 @@
+id: APPALACHIAN_HARDWOODS
+type: FEATURE
+
+distributor:
+  type: PADDED_GRID
+  width: 8
+  padding: 2
+  salt: 8349
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 64
+        max: 300
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks: $features/technical/plantable/plantable.yml:plantable-blocks
+        offset: -1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:snow
+          - minecraft:air
+        offset: 0
+
+structures:
+  distribution:
+    type: WHITE_NOISE
+    salt: 84829
+  structures:
+    - Acer_rubrum1: 1
+    - Acer_rubrum2: 1
+    - Acer_rubrum3: 1
+    - Acer_rubrum4: 1
+    - Ulmus_americana1: 1
+    - Ulmus_americana2: 1
+    - Ulmus_americana3: 1
+    - Ulmus_americana4: 1
+    - Carpinus_caroliniana1: 1
+    - Carpinus_caroliniana2: 1
+    - Carpinus_caroliniana3: 1
+    - Carpinus_caroliniana4: 1
+    - Fagus_grandifolia1: 1
+    - Fagus_grandifolia2: 1
+    - Fagus_grandifolia3: 1
+    - Fagus_grandifolia4: 1
+    - Fagus_grandifolia5: 1
+    - Hamamelis_virginiana1: 1
+    - Hamamelis_virginiana2: 1
+    - Hamamelis_virginiana3: 1
+    - Hamamelis_virginiana4: 1
+    - Hamamelis_virginiana5: 1
+    - Sassafras_albidum1: 1
+    - Sassafras_albidum2: 1
+    - Sassafras_albidum3: 1
+    - Diospyros_virginiana1: 1
+    - Diospyros_virginiana2: 1
+    - Diospyros_virginiana3: 1
+    - Liriodendron_tulipifera1: 1
+    - Liriodendron_tulipifera2: 1
+    - Liriodendron_tulipifera3: 1
+    - Liriodendron_tulipifera4: 1
+    - Acer_saccharum1: 1
+    - Acer_saccharum2: 1
+    - Acer_saccharum3: 1
+    - Acer_saccharum4: 1
+    - Carya_ovata1: 1
+    - Carya_ovata2: 1
+    - Carya_ovata3: 1
+    - Carya_ovata4: 1
+    - Castanea_dentata1: 1
+    - Castanea_dentata2: 1
+    - Castanea_dentata3: 1
+    - Castanea_dentata4: 1
+    - Cornus_florida1: 1
+    - Cornus_florida2: 1
+    - Cornus_florida3: 1
+    - Cornus_florida4: 1
+    - Cornus_florida5: 1
+    - Nyssa_sylvatica1: 1
+    - Nyssa_sylvatica2: 1
+    - Nyssa_sylvatica3: 1
+    - Nyssa_sylvatica4: 1
+    - azaleabush1: 1
+    - azaleabush2: 1
+    - azaleabush3: 1
+    - azaleabush4: 1
+    - azaleabush5: 1
+    - azaleabush6: 1
+    - flowering_azaleabush1: 1
+    - flowering_azaleabush2: 1
+    - flowering_azaleabush3: 1
+    - flowering_azaleabush4: 1
+    - flowering_azaleabush5: 1
+    - flowering_azaleabush6: 1
+    - Juglans_nigra1: 1
+    - Juglans_nigra2: 1
+    - Juglans_nigra3: 1
+    - Quercus_alba1: 1
+    - Quercus_alba2: 1
+    - Quercus_alba3: 1
+    - Quercus_alba4: 1
+    - Quercus_alba5: 1
+    - Quercus_alba6: 1
+    - Quercus_rubra1: 1
+    - Quercus_rubra2: 1
+    - Quercus_rubra3: 1
+    - Quercus_rubra4: 1
+    - Quercus_rubra5: 1
+    - Quercus_rubra6: 1

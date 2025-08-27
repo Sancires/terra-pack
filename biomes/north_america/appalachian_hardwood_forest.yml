@@ -1,0 +1,17 @@
+id: APPALACHIAN_HARDWOOD_FOREST
+type: BIOME
+extends: [BASE, TERRAIN_HIGHLANDS]
+
+vanilla: minecraft:windswept_forest
+
+palette:
+  - WOODLAND_FLOOR: 319
+
+slant:
+  - threshold: 4
+    palette:
+      - BLOCK:minecraft:granite: 319
+
+features:
+  trees:
+    - APPALACHIAN_HARDWOODS
