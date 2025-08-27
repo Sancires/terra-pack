@@ -1,0 +1,21 @@
+id: TEMPERATE_LOWLANDS
+type: BIOME
+extends: [BASE, TERRAIN_PLAINS]
+
+vanilla: minecraft:plains
+
+palette:
+  - GRASS: 319
+
+colors:
+  grass: 0x52ba67
+  foliage: 0x85ea91
+
+features:
+  flora:
+    - GRASS
+    - DENSE_DRY_GRASS
+    - POPPY_PATCH
+    - ROSEBUSH_PATCH
+  trees:
+    - DENSE_TEMPERATE_LOWLANDS_TREE_PATCHES

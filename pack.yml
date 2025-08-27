@@ -54,7 +54,7 @@ stages:
 
 biomes:
   type: SINGLE
-  biome: APPALACHIAN_HARDWOOD_FOREST
+  biome: TEMPERATE_LOWLANDS
 
 blend:
   palette:
