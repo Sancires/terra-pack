@@ -64,4 +64,4 @@ blend:
 
 samplers:
   "<<":
-    - samplers/samplers.yml:samplers
+    - samplers/simplex.yml:samplers
